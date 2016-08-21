@@ -24,6 +24,7 @@
   <!-- Javascript -->
   <script type="text/javascript" src="js/google_analytics.js"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
   <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
   <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
   <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
@@ -36,16 +37,15 @@
 <div id="header">
   <ul id="navigation">
     <li class="home-nav" onClick="scrollNav('.home')">M & M</li>
-    <li class="pictures-nav" onClick="scrollNav('.pictures')">Pictures</li>
     <li class="story-nav" onClick="scrollNav('.story')">Our Story</li>
-    <li class="info-nav" onClick="scrollNav('.info')">Event Info</li>
     <li class="party-nav" onClick="scrollNav('.party')">Family</li>
+    <li class="info-nav" onClick="scrollNav('.info')">Event Info</li>
     <li class="rsvp-nav" onClick="scrollNav('.rsvp')">RSVP</li>
     <li class="gifts-nav" onClick="scrollNav('.gifts')">Gifts</li>
   </ul>
 </div>
 
-<!-- Home Frame -->
+<!-- Main Section -->
 <div class="home slide">
   &nbsp;
   <div class="content-box">
@@ -55,35 +55,7 @@
   </div>
 </div>
 
-<!-- Pictures Frame -->
-<div class="pictures slide">
-  <div class="content-box">
-    <div class="pictures-title"><h1>Pictures</h1></div>
-    <h2 class="gallery-title">Click on the boxes</h2>
-    <div class="gallery">
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-      <a class="photo kufi" rel="story-gallery" href="images/kufi.jpg" title="Will upload image soon!">Photo<span></span></a>
-    </div>
-  </div>
-</div>
-
-<!-- Our Story Frame -->
+<!-- Our Story Section -->
 <div class="story slide">
   <div class="content-box">
     <div class="story-title"><h1>Our Story</h1></div>
@@ -91,63 +63,32 @@
     <div class="timeline">
       <div class="highlights">
         <a class="heart first">Highlight 1<span></span></a>
-        <h4><span>December 1st, 2014</span><br />Maisarah sent her first meesage to Mukmeen on Facebook. She said "Nik"</h4>
+        <h4><span>December 1st, 2014</span><br />Mukmeen & Maisarah had their first conversation on facebook.</h4>
       </div>
       <div class="highlights">
         <a class="heart second">Highlight 2<span></span></a>
         <h4><span>January 1st, 2015</span><br />Mukmeen went to Penang with his parents to meetup with Maisarah together with her parents. They met at Bayview Hotel in Penang.</h4>
       </div>
       <div class="highlights">
-        <a class="heart fourth">Highlight 4<span></span></a>
-        <h4><span>November 11th, 2015</span><br />Engagement Day!</h4>
+        <a class="heart third">Highlight 4<span></span></a>
+        <h4><span>November 1st, 2015</span><br />Engagement Day!</h4>
       </div>
       <div class="highlights">
-        <a class="heart fifth">Highlight 5<span></span></a>
+        <a class="heart fourth">Highlight 5<span></span></a>
         <h4><span>December, 2015</span><br />Both families decided on the wedding date. It's a year from now!</h4>
       </div>
       <div class="highlights">
-        <a class="heart sixth">Highlight 6<span></span></a>
-        <h4><span>January-April, 2016</span><br />Not sure what to put here.</h4>
-      </div>
-      <div class="highlights">
-        <a class="heart seventh">Highlight 7<span></span></a>
+        <a class="heart fifth">Highlight 7<span></span></a>
         <h4><span>May, 2016</span><br />Wedding stress began...</h4>
       </div>
     </div>
   </div>
 </div>
 
-
-<!-- Event Info Frame -->
-<div class="info slide">
-  <div class="content-box">
-    <div class="info-title"><h1>Event Info</h1></div>
-    <div class="map-content">
-      <img class="map" src="images/map.png" alt="Map" />
-    </div>
-    <div class="info-content">
-      <h2>Dewan MPSP</h2>
-      <h3>Kepala Batas, P. Pinang</h3>
-      <h3>11 DEC 2016 @ 6PM</h3>
-      <div class="more-info">
-        <a class="info btn" id="getmore-info" href="#inline1" title="">More Event Info<span></span></a>
-      </div>
-      <div style="display: none;">
-        <div id="inline1" style="width:600px;height:550px;overflow:auto;">
-          <p>More info to come!</p>
-        </div>
-      </div>
-      <div class="get-directions">
-        <a href="https://goo.gl/maps/QWHp3SwA5BU2" target="_blank" class="directions btn">Driving Directions<span></span></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Wedding Party Frame -->
+<!-- Family Section -->
 <div class="party slide">
   <div class="content-box">
-    <div class="party-title-temp"><h1>Family Members</h1></div>
+    <div class="family-title"><h1>Family Members</h1></div>
     <h2>The people standing beside us!</h2>
     <div class="groomsmen">
       <h3 class="wp-title">Groom</h3>
@@ -176,7 +117,33 @@
   </div>
 </div>
 
-<!-- RSVP Frame -->
+<!-- Event Info Section -->
+<div class="info slide">
+  <div class="content-box">
+    <div class="info-title"><h1>Event Info</h1></div>
+    <div class="map-content">
+      <img class="map" src="images/map.png" alt="Map" />
+    </div>
+    <div class="info-content">
+      <h2>Dewan MPSP</h2>
+      <h3>Kepala Batas, P. Pinang</h3>
+      <h3>11 DEC 2016 @ 6PM</h3>
+      <div class="more-info">
+        <a class="info btn" id="getmore-info" href="#inline1" title="">More Event Info<span></span></a>
+      </div>
+      <div style="display: none;">
+        <div id="inline1" style="width:600px;height:550px;overflow:auto;">
+          <p>More info to come!</p>
+        </div>
+      </div>
+      <div class="get-directions">
+        <a href="https://goo.gl/maps/QWHp3SwA5BU2" target="_blank" class="directions btn">Driving Directions<span></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP Section -->
 <div class="rsvp slide">
   <div class="content-box">
     <div class="rsvp-title"><h1>RSVP: Come Join the Party!</h1></div>
@@ -204,14 +171,20 @@
   </div>
 </div>
 
-<!-- Registry Frame -->
+<!-- Registry Section -->
 <div class="gifts slide">
   <div class="content-box">
     <div class="gifts-title"><h1>Gifts &amp; Registry</h1></div>
     <h2>Check out our registry</h2>
     <div class="registry-imgs">
-      <a href="http://www.wayfair.com/registry/wedding/mukmeenmaisarah" target="_blank" class="registry_text"><h2 class="gifts">Wayfair</h2></a>
-      <a href="https://www.amazon.com/wedding/nik-amirul-mukmeen-nik-md-yusof-maisarah-ayesya-nor-azman-kepala-batas-december-2016/registry/3TPPPL8VVPBSZ" target="_blank" class="registry_text"><h2 class="gifts">Amazon</h2></a>
+      <a href="http://www.wayfair.com/registry/wedding/mukmeenmaisarah" target="_blank" class="registry wayfair">
+        Wayfair<span></span>
+      </a>
+      <a href="https://www.amazon.com/wedding/nik-amirul-mukmeen-nik-md-yusof-maisarah-ayesya-nor-azman-kepala-batas-december-2016/registry/3TPPPL8VVPBSZ"
+         target="_blank"
+         class="registry amazon">
+        Amazon<span></span>
+      </a>
     </div>
   </div>
 </div>
@@ -226,11 +199,7 @@
 
 <!-- Footer -->
 <div id="footer">
-  <div class="social">
-    <div class="tweet">
-      #mukmeenmaisarah
-    </div>
-  </div>
+  <h3 class="timer js-countdown-timer"></h3>
 </div>
 
 </body>

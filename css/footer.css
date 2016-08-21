@@ -5,74 +5,22 @@
 #footer {
 	z-index: 100;
 	position: fixed;
-	bottom: 0px;
+	bottom: 0;
 	background-color: #383838;
-	width: 240px;
+	width: 195px;
 	height: 50px;
 	margin: 10px;
+	text-align: center;
 	right: 0;
-	opacity: .5;
+	opacity: .4;
 	filter: alpha(opacity=50);
 	-webkit-transition: opacity 0.5s;
 	-moz-transition: opacity 0.5s;
 	-o-transition: opacity 0.5s;
 	-ms-transition: opacity 0.5s;
-	cursor: pointer;
 }
 
-#footer:hover {
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-
-.social {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	width: 210px;
-}
-
-.like {
-	float: left;
-	width: 75px;
-	margin: 2px 2px 2px 2px;
-	height: 20px;
-	padding: 13px 5px 0 0;
-}
-
-.tweet {
-	float: left;
-	width: 75px;
-	margin: 2px 2px 2px 2px;
-	height: 20px;
-	padding: 13px 0 0 5px;
-}
-
-.luke-logo {
-	display: block;
-	position: relative;
-	text-indent: -9999px;
-	width: 23px;
-	height: 23px;
-	float: left;
-	margin: 13px 0 15px 15px;
-}
-
-.luke-logo span {
-	position: absolute;
-	top: 0;left: 0;bottom: 0;right: 0;
-	background: url(images/luke-logo.png) no-repeat;
-	opacity: .8;
-	filter: alpha(opacity=80);
-	-webkit-transition: opacity 0.5s;
-	-moz-transition: opacity 0.5s;
-	-o-transition: opacity 0.5s;
-	-ms-transition: opacity 0.5s;
-}
-
-.luke-logo:hover span {
-	opacity: 1;
-	filter: alpha(opacity=100);
+.timer {
+	margin-top: 10px;
+	font-size: 35px;
 }

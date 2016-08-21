@@ -11,14 +11,14 @@
 	margin-top: -210px;
 }
 
-.party-title {
+.family-title {
 	display: block;
 	margin: auto;
 	position: relative;
 	text-indent: -9999px;
-	width: 785px;
+	width: 576px;
 	height: 75px;
-	background: url(../images/title-sprites.png) 0 -150px;
+	background: url(../images/family.png) no-repeat;
 	margin-bottom: 25px;
 }
 
@@ -104,64 +104,4 @@
 
 .groomsmen .kufi span {
 	background: url(../images/kufi.jpg);
-}
-
-.groomsmen .one span {
-	background: url(../images/partythumb-sprite.jpg) -51px 0;
-}
-
-.groomsmen .two span {
-	background: url(../images/partythumb-sprite.jpg) -102px 0;
-}
-
-.groomsmen .three span {
-	background: url(../images/partythumb-sprite.jpg) -153px 0;
-}
-
-.groomsmen .four span {
-	background: url(../images/partythumb-sprite.jpg) -204px 0;
-}
-
-.groomsmen .five span {
-	background: url(../images/partythumb-sprite.jpg) -255px 0;
-}
-
-.groomsmen .six span {
-	background: url(../images/partythumb-sprite.jpg) -306px 0;
-}
-
-.groomsmen .seven span {
-	background: url(../images/partythumb-sprite.jpg) -357px 0;
-}
-
-.bridesmaids .kufi span {
-	background: url(../images/kufi.jpg);
-}
-
-.bridesmaids .one span {
-	background: url(../images/partythumb-sprite.jpg) -408px 0;
-}
-
-.bridesmaids .two span {
-	background: url(../images/partythumb-sprite.jpg) -459px 0;
-}
-
-.bridesmaids .three span {
-	background: url(../images/partythumb-sprite.jpg) -510px 0;
-}
-
-.bridesmaids .four span {
-	background: url(../images/partythumb-sprite.jpg) -561px 0;
-}
-
-.bridesmaids .five span {
-	background: url(../images/partythumb-sprite.jpg) -612px 0;
-}
-
-.bridesmaids .six span {
-	background: url(../images/partythumb-sprite.jpg) -663px 0;
-}
-
-.bridesmaids .seven span {
-	background: url(../images/partythumb-sprite.jpg) -714px 0;
 }

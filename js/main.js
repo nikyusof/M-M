@@ -42,6 +42,10 @@ $(function() {
     return false;
   }
 
+  $('.js-countdown-timer').countdown('2016/12/11', function(event) {
+    $(this).html(event.strftime('%D days %H:%M:%S'));
+  });
+
   $("#next, #prev").click(function() {
     return scroll($(this).attr('id'));
   });

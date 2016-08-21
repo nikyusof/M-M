@@ -40,10 +40,9 @@
 	display: block;
 	position: relative;
 	text-indent: -9999px;
-	width: 282px;
-	height: 99px;
+	width: 296px;
+	height: 128px;
 	float: left;
-	margin-right: 20px;
 	margin-left: 20px;
 }
 
@@ -51,7 +50,7 @@
 	position: absolute;
 	top: 0;left: 0;bottom: 0;right: 0;
 	background-color: rgb(230,230,230);
-	background: url(images/wsonoma.jpg) no-repeat;
+	background: url(../images/wayfair.png) no-repeat;
 	background-position: -282px 0;
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -70,39 +69,21 @@
 	text-decoration: none;
 }
 
-.wsonoma{
-	background: url(images/wsonoma.jpg) no-repeat;
+.wayfair {
+	background: url(../images/wayfair.png) no-repeat;
 }
 
-.wsonoma span {
-	background: url(images/wsonoma.jpg) no-repeat;
-	background-position: -282px 0;
+.wayfair span {
+	background: url(../images/wayfair.png) no-repeat;
+	background-position: -318px 0;
 }
 
-.pbarn {
-	background: url(images/pbarn.jpg) no-repeat;
+.amazon {
+	background: url(../images/amazon.png) no-repeat;
+	margin-top: 65px
 }
 
-.pbarn span {
-	background: url(images/pbarn.jpg) no-repeat;
-	background-position: -282px 0;
-}
-
-.bbeyond {
-	clear: both;
-	background: url(images/bbeyond.jpg) no-repeat;
-}
-
-.bbeyond span {
-	background: url(images/bbeyond.jpg) no-repeat;
-	background-position: -282px 0;
-}
-
-.target {
-	background: url(images/target.jpg) no-repeat;
-}
-
-.target span {
-	background: url(images/target.jpg) no-repeat;
-	background-position: -282px 0;
+.amazon span {
+	background: url(../images/amazon.png) no-repeat;
+	background-position: -323px 0;
 }

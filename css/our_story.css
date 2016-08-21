@@ -26,7 +26,7 @@
 	display: block;
 	position: relative;
 	text-align: center;
-	color: rgb(252,252,252);
+	color: rgb(169,169,169);
 }
 
 .timeline {
@@ -50,27 +50,17 @@
 }
 
 .third {
-	margin-left: 50px;
+	margin-left: 170px;
 	margin-top: 26px;
 }
 
 .fourth {
-	margin-left: 90px;
-	margin-top: 26px;
-}
-
-.fifth {
 	margin-left: 50px;
 	margin-top: 26px;
 }
 
-.sixth {
-	margin-left: 80px;
-	margin-top: 26px;
-}
-
-.seventh {
-	margin-left: 20px;
+.fifth {
+	margin-left: 100px;
 	margin-top: 26px;
 }
 
