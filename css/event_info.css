@@ -1,0 +1,121 @@
+/**
+ * Styles for the event info section
+ */
+
+.info {
+	background-color: rgb(220,79,83);
+}
+
+.info .content-box {
+	height: 450px;
+	margin-top: -260px;
+}
+
+.info-title {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-indent: -9999px;
+	width: 785px;
+	height: 75px;
+	background: url(../images/title-sprites.png) 0 -75px;
+	margin-bottom: 50px;
+}
+
+.map-content {
+	float: left;
+	width: 451px;
+	height: 311px;
+}
+
+.info-content {
+	float: left;
+	width: 420px;
+	height: 311px;
+	padding-left: 29px;
+}
+
+.info-content h2 {
+	margin-left: 0;
+	margin-bottom: 30px;
+	color: rgb(248,191,84);
+}
+
+.info-content h3 {
+	margin: 0;
+	margin-bottom: 16px;
+}
+
+.more-info {
+	clear: both;
+	margin-top: 52px;
+	width: 420px;
+}
+
+#inline1 {
+	padding: 25px;
+}
+
+#inline1 span {
+	text-align: center;
+}
+
+.line-seperator {
+	display: block;
+	margin: auto;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	height: 1px;
+	width: 450px;
+	background: #bbbbbb;
+}
+
+.get-directions {
+	clear: both;
+	margin-top: 43px;
+	width: 420px;
+}
+
+.btn {
+	position: relative;
+	margin: 0;
+	text-align: center;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 55px;
+	font-weight: normal;
+	text-decoration: none;
+	-webkit-transition-property: color, background-color;
+	-webkit-transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property: color, background-color;
+	-moz-transition-duration: .5s, .5s;
+	-moz-transition-timing-function: linear, ease-in;
+	-o-transition-property: color, background-color;
+	-o-transition-duration: .5s, .5s;
+	-o-transition-timing-function: linear, ease-in;
+	-ms-transition-property: color, background-color;
+	-ms-transition-duration: .5s, .5s;
+	-ms-transition-timing-function: linear, ease-in;
+}
+
+.info.btn {
+	padding: 10px 95px 10px 95px;
+	background-color: rgb(248,191,84);
+	color: #FFFFFF;
+}
+
+.info.btn:hover {
+	color: rgb(220,79,83);
+	background-color: #FFFFFF;
+}
+
+.directions.btn {
+	padding: 10px 79px 10px 79px;
+	background-color: rgb(248,191,84);
+	color: #FFFFFF;
+}
+
+.directions.btn:hover {
+	color: rgb(220,79,83);
+	background-color: #FFFFFF;
+}

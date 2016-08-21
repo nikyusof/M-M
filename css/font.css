@@ -1,0 +1,25 @@
+/**
+ * Styles for the font
+ */
+
+@font-face {
+	font-family: 'BlanchCapsRegular';
+	src: url('../fonts/blanch_caps_webfont.eot');
+	src: url('../fonts/blanch_caps_webfont.eot?#iefix') format('embedded_opentype'),
+	url('../fonts/blanch_caps_webfont.woff') format('woff'),
+	url('../fonts/blanch_caps_webfont.ttf') format('truetype'),
+	url('../fonts/blanch_caps_webfont.svg#BlanchCapsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PacificoRegular';
+	src: url('../fonts/pacifico_webfont.eot');
+	src: url('../fonts/pacifico_webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/pacifico_webfont.woff') format('woff'),
+	url('../fonts/pacifico_webfont.ttf') format('truetype'),
+	url('../fonts/pacifico_webfont.svg#PacificoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

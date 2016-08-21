@@ -1,0 +1,22 @@
+/**
+ * Styles for the home section
+ */
+
+.home {
+	background-color: rgb(171,221,198);
+}
+
+.home .content-box {
+	height: 340px;
+	margin-top: -187px;
+}
+
+.home-img {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-indent: -9999px;
+	width: 540px;
+	height: 335px;
+	background: url(../images/mm-title.png) no-repeat;
+}

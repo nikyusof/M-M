@@ -1,0 +1,181 @@
+/**
+ * Styles for the RSVP section
+ */
+
+.rsvp {
+	background-color: rgb(0,138,160);
+}
+
+.rsvp .content-box {
+	height: 475px;
+	margin-top: -270px;
+}
+
+.rsvp-title {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-indent: -9999px;
+	width: 785px;
+	height: 75px;
+	background: url(../images/title-sprites.png) 0 -225px;
+	margin-bottom: 25px;
+}
+
+.rsvp h2 {
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: rgb(0,138,160) 0 0 0;
+}
+
+.rsvp-now {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 780px;
+	height: 240px;
+}
+
+.labels {
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 240px;
+	margin-top: 0px;
+}
+
+.labels h3 {
+	padding-bottom: 6px;
+	text-align: right;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 53px;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin: 20px 0px 20px 0;
+}
+
+.guest-name span {
+	color: rgb(248,191,84);
+}
+
+.forms {
+	position: relative;
+	width: 210px;
+	height: 240px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 0px;
+	float: left;
+}
+
+#name-form {
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	color: #4a4a4a;
+	margin-top: 15px;
+}
+
+#guest-form {
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	color: #4a4a4a;
+	margin-top: 15px;
+}
+
+#attending-form {
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	color: #4a4a4a;
+	margin-top: 15px;
+}
+
+#email-form {
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	color: #4a4a4a;
+	margin-top: 15px;
+}
+.submit-container {
+	position: relative;
+	width: 205px;
+	height: 240px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 55px;
+	margin-right: 0px;
+	float: left;
+}
+
+.password {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#password-form {
+	display: block;
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	color: #4a4a4a;
+	margin: 0;
+}
+
+.submit {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+.submit-btn {
+	position: relative;
+	padding: 5px 53px 5px 53px;
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	background-color: rgb(248,191,84);
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 55px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+	-webkit-transition-property: color, background-color;
+	-webkit-transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property: color, background-color;
+	-moz-transition-duration: .5s, .5s;
+	-moz-transition-timing-function: linear, ease-in;
+	-o-transition-property: color, background-color;
+	-o-transition-duration: .5s, .5s;
+	-o-transition-timing-function: linear, ease-in;
+	-ms-transition-property: color, background-color;
+	-ms-transition-duration: .5s, .5s;
+	-ms-transition-timing-function: linear, ease-in;
+}
+
+.submit-btn:hover {
+	color: rgb(248,191,84);
+	background-color: #FFFFFF;
+	border: 0;
+}
+
+.questions {
+	clear: both;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.questions a {
+	color: rgb(248,191,84);
+	text-decoration: none;
+}

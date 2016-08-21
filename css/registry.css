@@ -1,0 +1,108 @@
+/**
+ * Styles for the registry section
+ */
+
+.gifts {
+	height: 100%;
+	position: relative;
+	background-color: rgb(230,230,230);
+}
+
+.gifts .content-box {
+	height: 420px;
+	margin-top: -250px;
+}
+
+.gifts-title {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-indent: -9999px;
+	width: 785px;
+	height: 83px;
+	background: url(../images/title-sprites.png) 0 -300px;
+	margin-bottom: 25px;
+}
+
+.gifts h2 {
+	color: rgb(128,128,128);
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.registry-imgs {
+	display: relative;
+	margin: 0 auto;
+	width: 644px;
+}
+
+.registry {
+	display: block;
+	position: relative;
+	text-indent: -9999px;
+	width: 282px;
+	height: 99px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.registry span {
+	position: absolute;
+	top: 0;left: 0;bottom: 0;right: 0;
+	background-color: rgb(230,230,230);
+	background: url(images/wsonoma.jpg) no-repeat;
+	background-position: -282px 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+}
+
+.registry:hover span {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.registry_text {
+	text-decoration: none;
+}
+
+.wsonoma{
+	background: url(images/wsonoma.jpg) no-repeat;
+}
+
+.wsonoma span {
+	background: url(images/wsonoma.jpg) no-repeat;
+	background-position: -282px 0;
+}
+
+.pbarn {
+	background: url(images/pbarn.jpg) no-repeat;
+}
+
+.pbarn span {
+	background: url(images/pbarn.jpg) no-repeat;
+	background-position: -282px 0;
+}
+
+.bbeyond {
+	clear: both;
+	background: url(images/bbeyond.jpg) no-repeat;
+}
+
+.bbeyond span {
+	background: url(images/bbeyond.jpg) no-repeat;
+	background-position: -282px 0;
+}
+
+.target {
+	background: url(images/target.jpg) no-repeat;
+}
+
+.target span {
+	background: url(images/target.jpg) no-repeat;
+	background-position: -282px 0;
+}

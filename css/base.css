@@ -1,0 +1,89 @@
+/**
+ * Base styles
+ */
+
+h1 {
+	padding: 0;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 60px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Pacifico', 'PacificoRegular', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	font-style: normal;
+	margin: 15px;
+}
+
+h3 {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 53px;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin: 20px 0px 20px 0;
+}
+
+h4 {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 30px;
+	font-weight: normal;
+	color: rgb(225,86,97);
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #363636
+}
+
+p a {
+	text-decoration: none;
+	color: rgb(220,79,83);
+}
+
+p a:hover {
+	color: rgb(248,202,105);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #3ba7b8;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+/**
+ * Main content styles
+ */
+.content-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 900px;
+	margin-left: -450px;
+}
+
+.container {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
