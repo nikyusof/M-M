@@ -22,6 +22,10 @@
 	margin-bottom: 50px;
 }
 
+.event-section {
+	top: 35%; /* override the content-box top style */
+}
+
 .map-content {
 	float: left;
 	width: 451px;

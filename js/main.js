@@ -8,7 +8,7 @@ var SCROLL_ANIMATION_TIME = 750;
  * Function for the scroll animation
  * @param id
  */
-function scrollNav(id){
+function scrollNav(id) {
   $('html, body').animate({
     scrollTop: $(""+id).offset().top
   }, 'slow');
@@ -83,9 +83,12 @@ $(document).ready(function() {
     }
   });
 
-  $("#getmore-info").fancybox({
+  $('.js-getmore-info').fancybox({
     'titlePosition'	: 'inside',
-    'transitionIn'	: 'none',
-    'transitionOut'	: 'none'
+    'transitionIn'	: 'elastic',
+    'transitionOut'	: 'elastic',
+    'speedIn' : 400,
+    'speedOut' : 200,
+    'showCloseButton': true
   });
 });

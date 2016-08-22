@@ -70,15 +70,15 @@
         <h4><span>January 1st, 2015</span><br />Mukmeen went to Penang with his parents to meetup with Maisarah together with her parents. They met at Bayview Hotel in Penang.</h4>
       </div>
       <div class="highlights">
-        <a class="heart third">Highlight 4<span></span></a>
+        <a class="heart third">Highlight 3<span></span></a>
         <h4><span>November 1st, 2015</span><br />Engagement Day!</h4>
       </div>
       <div class="highlights">
-        <a class="heart fourth">Highlight 5<span></span></a>
+        <a class="heart fourth">Highlight 4<span></span></a>
         <h4><span>December, 2015</span><br />Both families decided on the wedding date. It's a year from now!</h4>
       </div>
       <div class="highlights">
-        <a class="heart fifth">Highlight 7<span></span></a>
+        <a class="heart fifth">Highlight 5<span></span></a>
         <h4><span>May, 2016</span><br />Wedding stress began...</h4>
       </div>
     </div>
@@ -119,7 +119,7 @@
 
 <!-- Event Info Section -->
 <div class="info slide">
-  <div class="content-box">
+  <div class="content-box event-section">
     <div class="info-title"><h1>Event Info</h1></div>
     <div class="map-content">
       <img class="map" src="images/map.png" alt="Map" />
@@ -127,12 +127,31 @@
     <div class="info-content">
       <h2>Dewan MPSP</h2>
       <h3>Kepala Batas, P. Pinang</h3>
-      <h3>11 DEC 2016 @ 6PM</h3>
+      <h3>11 DEC 2016 @ 12PM</h3>
       <div class="more-info">
-        <a class="info btn" id="getmore-info" href="#inline1" title="">More Event Info<span></span></a>
+        <a class="info btn js-getmore-info" href="#event-info1" title="">More Event Info<span></span></a>
       </div>
       <div style="display: none;">
-        <div id="inline1" style="width:600px;height:550px;overflow:auto;">
+        <div id="event-info1">
+          <p>More info to come!</p>
+        </div>
+      </div>
+      <div class="get-directions">
+        <a href="https://goo.gl/maps/QWHp3SwA5BU2" target="_blank" class="directions btn">Driving Directions<span></span></a>
+      </div>
+    </div>
+    <div class="map-content">
+      <img class="map" src="images/map.png" alt="Map" />
+    </div>
+    <div class="info-content">
+      <h2>Dewan Felda</h2>
+      <h3>Kuala Lumpur</h3>
+      <h3>18 DEC 2016 @ 12PM</h3>
+      <div class="more-info">
+        <a class="info btn js-getmore-info" href="#event-info2" title="">More Event Info<span></span></a>
+      </div>
+      <div style="display: none;">
+        <div id="event-info2">
           <p>More info to come!</p>
         </div>
       </div>
@@ -148,7 +167,7 @@
   <div class="content-box">
     <div class="rsvp-title"><h1>RSVP: Come Join the Party!</h1></div>
     <h2>Tell us if you're coming!</h2>
-    <form name="rsvp-now" class="rsvp-now">
+    <form name="rsvp-now" id="rsvp-now" class="rsvp-now" action="//formspree.io/mukmeenmaisarah@gmail.com" method="POST">
       <div class="labels">
         <label for="name"><h3 class="your-name">Your Name</h3></label>
         <label for="guests"><h3 class="guest-name">Name of Guest<span>(s)</span></h3></label>
@@ -163,7 +182,8 @@
       </div>
       <div class="submit-container">
         <div class="submit">
-          <input class="submit-btn" type="submit" name='submit' value="submit" />
+          <button class="submit-btn" type="submit">Submit</button>
+          <input type="hidden" name="_next" value="/index.html" />
         </div>
       </div>
     </form>
