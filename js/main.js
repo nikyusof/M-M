@@ -66,7 +66,8 @@ $(document).ready(function() {
     'titlePosition' : 'inside',
     'titleFormat'	: function(title) {
       return '<span id="fancybox-title-over">' + (title.length ? '' + title : '') + '</span>';
-    }
+    },
+    'showNavArrows': true
   });
 
   $("a[rel=girls-gallery]").fancybox({

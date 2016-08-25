@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0678bb09-d25d-47f7-a138-5ab7593432e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/girls7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery/guys7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/partythumb-sprite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pthumb-sprite.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sketch/web_design.sketch" afterPath="$PROJECT_DIR$/sketch/web_design.sketch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/left-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/right-arrow.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/event_info.css" afterPath="$PROJECT_DIR$/css/event_info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/family.css" afterPath="$PROJECT_DIR$/css/family.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fancybox.css" afterPath="$PROJECT_DIR$/css/fancybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/rsvp.css" afterPath="$PROJECT_DIR$/css/rsvp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
@@ -46,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="740">
-              <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="family.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/family.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+              <caret line="118" column="115" selection-start-line="118" selection-start-column="115" selection-end-line="118" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -117,10 +89,10 @@
         <option value="$PROJECT_DIR$/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/css/event_info.css" />
         <option value="$PROJECT_DIR$/css/rsvp.css" />
+        <option value="$PROJECT_DIR$/css/family.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/fancybox.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/family.css" />
       </list>
     </option>
   </component>
@@ -181,6 +153,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="M-M" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M-M" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M-M" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,14 +273,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30960000" />
+    <option name="totallyTimeSpent" value="31962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1253" y="23" width="1307" height="1352" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18439174" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18439174" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -329,25 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/footer-slice.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/mm-title.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -556,29 +523,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="278" column="14" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="14" />
-          <folding>
-            <marker date="1472092635000" expanded="true" signature="6841:6876" ph="{...}" />
-            <marker date="1472092635000" expanded="true" signature="6968:7212" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/rsvp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -598,18 +546,52 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/images/blank.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/right-arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/left-arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fancybox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+        <state relative-caret-position="259">
+          <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
+          <folding>
+            <marker date="1472095721000" expanded="true" signature="6754:6789" ph="{...}" />
+            <marker date="1472095721000" expanded="true" signature="6881:7125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/family.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="109" column="65" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+        <state relative-caret-position="319">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="118" column="115" selection-start-line="118" selection-start-column="115" selection-end-line="118" selection-end-column="115" />
           <folding />
         </state>
       </provider>
