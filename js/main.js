@@ -25,7 +25,7 @@ $(function() {
         collection = $('.slide');
 
     collection.each(function() {
-      positions.push(parseInt($(this).offset()['top'],10));
+      positions.push(parseInt($(this).offset()['top'], 10));
     });
 
     for(var i = 0; i < positions.length; i++) {
@@ -62,23 +62,16 @@ $(function() {
  * Function for the fancy box
  */
 $(document).ready(function() {
-  $("a[rel=story-gallery]").fancybox({
-    'titlePosition' : 'inside',
-    'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
-      return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-    }
-  });
-
   $("a[rel=guys-gallery]").fancybox({
     'titlePosition' : 'inside',
-    'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+    'titleFormat'	: function(title) {
       return '<span id="fancybox-title-over">' + (title.length ? '' + title : '') + '</span>';
     }
   });
 
   $("a[rel=girls-gallery]").fancybox({
     'titlePosition' : 'inside',
-    'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+    'titleFormat'	: function(title) {
       return '<span id="fancybox-title-over">' + (title.length ? '' + title : '') + '</span>';
     }
   });

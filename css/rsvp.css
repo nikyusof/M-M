@@ -69,37 +69,15 @@
 	float: left;
 }
 
-#name-form {
+.rsvp-form {
 	width: 200px;
 	height: 30px;
 	font-size: 25px;
 	color: #4a4a4a;
 	margin-top: 15px;
+	font-family: sans-serif;
 }
 
-#guest-form {
-	width: 200px;
-	height: 30px;
-	font-size: 25px;
-	color: #4a4a4a;
-	margin-top: 15px;
-}
-
-#attending-form {
-	width: 200px;
-	height: 30px;
-	font-size: 25px;
-	color: #4a4a4a;
-	margin-top: 15px;
-}
-
-#email-form {
-	width: 200px;
-	height: 30px;
-	font-size: 25px;
-	color: #4a4a4a;
-	margin-top: 15px;
-}
 .submit-container {
 	position: relative;
 	width: 205px;
@@ -109,23 +87,6 @@
 	margin-left: 55px;
 	margin-right: 0px;
 	float: left;
-}
-
-.password {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	margin-right: 0;
-	margin-left: 0;
-}
-
-#password-form {
-	display: block;
-	width: 200px;
-	height: 30px;
-	font-size: 25px;
-	color: #4a4a4a;
-	margin: 0;
 }
 
 .submit {
