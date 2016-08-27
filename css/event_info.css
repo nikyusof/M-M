@@ -22,10 +22,6 @@
 	margin-bottom: 50px;
 }
 
-.event-section {
-	top: 35%; /* override the content-box top style */
-}
-
 .map-content {
 	float: left;
 	width: 451px;
@@ -34,6 +30,7 @@
 
 .info-content {
 	float: left;
+	text-align: center;
 	width: 420px;
 	height: 350px;
 	padding-left: 20px;

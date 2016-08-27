@@ -124,15 +124,13 @@
 
   <!-- Event Info Section -->
   <div class="info slide">
-    <div class="content-box event-section">
+    <div class="content-box">
       <div class="info-title"><h1>Event Info</h1></div>
-      <div class="map-content">
-        <img class="map" src="images/map.png" alt="Map" />
-      </div>
       <div class="info-content">
         <h2>Dewan MPSP</h2>
         <h3>Kepala Batas, P. Pinang</h3>
-        <h3>11 DEC 2016 @ 12PM</h3>
+        <h3>11 DEC 2016</h3>
+        <h3>12PM - 3PM</h3>
         <div class="more-info">
           <a class="info btn js-getmore-info" href="#event-info1" title="">More Event Info<span></span></a>
         </div>
@@ -145,13 +143,11 @@
           <a href="https://goo.gl/maps/QWHp3SwA5BU2" target="_blank" class="directions btn">Driving Directions<span></span></a>
         </div>
       </div>
-      <div class="map-content">
-        <img class="map" src="images/map.png" alt="Map" />
-      </div>
       <div class="info-content">
         <h2>Dewan Felda</h2>
         <h3>Kuala Lumpur</h3>
-        <h3>18 DEC 2016 @ 12PM</h3>
+        <h3>18 DEC 2016</h3>
+        <h3>11.30AM - 3.30PM</h3>
         <div class="more-info">
           <a class="info btn js-getmore-info" href="#event-info2" title="">More Event Info<span></span></a>
         </div>
@@ -174,16 +170,23 @@
       <h2>Tell us if you're coming!</h2>
       <form name="rsvp-now" id="rsvp-now" class="rsvp-now" action="//formspree.io/mukmeenmaisarah@gmail.com" method="POST">
         <div class="labels">
-          <label for="name"><h3 class="your-name">Your Name</h3></label>
+          <label for="name"><h3>Your Name</h3></label>
           <label for="guests"><h3 class="guest-name">Name of Guest<span>(s)</span></h3></label>
-          <label for="attending"><h3 class="attending"># Attending</h3></label>
-          <label for="email"><h3 class="email">Email</h3></label>
+          <label for="attending"><h3># Attending</h3></label>
+          <label for="email"><h3>Email</h3></label>
+          <label for="reception"><h3>Reception</h3></label>
         </div>
         <div class="forms">
-          <input type="text" name="name" class="rsvp-form" size="45" />
-          <input type="text" name="guests" class="rsvp-form" size="45" />
-          <input type="text" name="attending" class="rsvp-form" size="45" />
-          <input type="text" name="email" class="rsvp-form" size="45" />
+          <input type="text" id="name" name="name" class="rsvp-form" size="45" />
+          <input type="text" id="guests" name="guests" class="rsvp-form" size="45" />
+          <input type="text" id="attending" name="attending" class="rsvp-form" size="45" />
+          <input type="text" id="email" name="email" class="rsvp-form" size="45" />
+          <select id="reception" name="receiption" class="rsvp-form reception">
+            <option></option>
+            <option>Penang (Bride's Side)</option>
+            <option>KL (Groom's Side)</option>
+            <option>Both</option>
+          </select>
         </div>
         <div class="submit-container">
           <div class="submit">
