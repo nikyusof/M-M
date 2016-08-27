@@ -31,7 +31,6 @@
 }
 
 .registry-imgs {
-	display: relative;
 	margin: 0 auto;
 	width: 644px;
 }
@@ -49,9 +48,7 @@
 .registry span {
 	position: absolute;
 	top: 0;left: 0;bottom: 0;right: 0;
-	background-color: rgb(230,230,230);
-	background: url(../images/wayfair.png) no-repeat;
-	background-position: -282px 0;
+	background: rgb(230,230,230) url(../images/wayfair.png) no-repeat -282px 0;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.5s;
@@ -74,8 +71,7 @@
 }
 
 .wayfair span {
-	background: url(../images/wayfair.png) no-repeat;
-	background-position: -318px 0;
+	background: url(../images/wayfair.png) no-repeat -318px 0;
 }
 
 .amazon {
@@ -84,6 +80,5 @@
 }
 
 .amazon span {
-	background: url(../images/amazon.png) no-repeat;
-	background-position: -323px 0;
+	background: url(../images/amazon.png) no-repeat -323px 0;
 }

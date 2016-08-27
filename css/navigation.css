@@ -52,8 +52,7 @@ ul#navigation li:hover {
 
 #bottom-nav img {
 	display: block;
-	margin: 0 auto;
-	margin-top: 10px;
+	margin: 10px auto 0;
 	opacity: .2;
 	filter: alpha(opacity=20);
 }

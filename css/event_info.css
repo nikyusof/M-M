@@ -53,6 +53,12 @@
 	width: 420px;
 }
 
+.event-info {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 1.5em;
+	line-height: 25px;
+}
+
 #inline1 {
 	padding: 25px;
 }
