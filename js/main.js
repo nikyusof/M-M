@@ -10,7 +10,7 @@ var SCROLL_ANIMATION_TIME = 750;
  */
 function scrollNav(id) {
   $('html, body').animate({
-    scrollTop: $(""+id).offset().top
+    scrollTop: $("" + id).offset().top
   }, 'slow');
 }
 
