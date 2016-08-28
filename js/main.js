@@ -51,6 +51,7 @@ $(function() {
     FB.ui({
       method: 'share',
       display: 'popup',
+      quote: 'Mukmeen & Maisarah are getting married!',
       href: 'http://www.mukmeenmaisarah.com',
       hashtag: '#mukmeenmaisarah'
     }, function (response) {});
