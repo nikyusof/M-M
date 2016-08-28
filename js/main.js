@@ -46,6 +46,16 @@ $(function() {
     $(this).html(event.strftime('%D days %H:%M:%S'));
   });
 
+  $('.js-facebook-share').click(function(e) {
+    e.preventDefault();
+    FB.ui({
+      method: 'share',
+      display: 'popup',
+      href: 'http://www.mukmeenmaisarah.com',
+      hashtag: '#mukmeenmaisarah'
+    }, function (response) {});
+  });
+
   $("#next, #prev").click(function() {
     return scroll($(this).attr('id'));
   });
@@ -62,6 +72,15 @@ $(function() {
  * Function for the fancy box
  */
 $(document).ready(function() {
+  $.ajaxSetup({ cache: true });
+  $.getScript('//connect.facebook.net/en_US/sdk.js', function() {
+    FB.init({
+      appId: '1040081046111529',
+      xfbml: true,
+      version: 'v2.7'
+    });
+  });
+
   $("a[rel=guys-gallery]").fancybox({
     'titlePosition' : 'inside',
     'titleFormat'	: function(title) {
