@@ -36,6 +36,7 @@
 .social-icon-wrap {
 	margin: auto 3px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .social-icon {
