@@ -46,6 +46,10 @@ $(function() {
     $(this).html(event.strftime('%D days %H:%M:%S'));
   });
 
+  $('.js-story').click(function(e) {
+    var storyId = $(e.currentTarget).data('story');
+  });
+
   $('.js-facebook-share').click(function(e) {
     e.preventDefault();
     FB.ui({

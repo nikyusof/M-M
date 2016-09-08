@@ -1,0 +1,100 @@
+/**
+ * Navigation styles
+ */
+
+#header {
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	background-color: #383838;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index: 1;
+}
+
+ul#navigation {
+	padding: 0;
+	margin: 10px auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+ul#navigation li {
+	display: inline;
+	margin: 1%;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 110%;
+	text-shadow: #000 0 0 0;
+}
+
+ul#navigation li:hover {
+	color: #bebebe;
+	font-weight: 400;
+	text-shadow: #000 0 0 0;
+}
+
+/**
+ * Styles for bottom navigation
+ */
+#bottom-nav {
+	z-index: 100;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+}
+
+#bottom-nav img {
+	display: block;
+	margin: 10px auto 0;
+	opacity: .2;
+	width: 20px;
+	filter: alpha(opacity=20);
+}
+
+#next{
+	z-index: 100;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	background: url(../../images/footer-slice.png) repeat-x;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+	-ms-transition:     opacity 0.5s;
+}
+
+#next:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+#next img {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+#next .box {
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	margin: 0;
+	background-color: #383838;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}

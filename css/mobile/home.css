@@ -1,0 +1,14 @@
+/**
+ * Styles for the home section
+ */
+
+.home {
+	background-color: rgb(171,221,198);
+}
+
+.home-img {
+	width: 100%;
+	height: 185px;
+	background: url(../../images/mm-title.png) no-repeat center center;
+	background-size: 35vh;
+}

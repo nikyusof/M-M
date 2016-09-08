@@ -1,0 +1,84 @@
+/**
+ * Styles for the registry section
+ */
+
+.gifts {
+	height: 100%;
+	position: relative;
+	background-color: rgb(230,230,230);
+}
+
+.gifts .content-box {
+	height: 420px;
+	margin-top: -250px;
+}
+
+.gifts-title {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-indent: -9999px;
+	width: 785px;
+	height: 83px;
+	background: url(../../images/title-sprites.png) 0 -300px;
+	margin-bottom: 25px;
+}
+
+.gifts h2 {
+	color: rgb(128,128,128);
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.registry-imgs {
+	margin: 0 auto;
+	width: 644px;
+}
+
+.registry {
+	display: block;
+	position: relative;
+	text-indent: -9999px;
+	width: 296px;
+	height: 128px;
+	float: left;
+	margin-left: 20px;
+}
+
+.registry span {
+	position: absolute;
+	top: 0;left: 0;bottom: 0;right: 0;
+	background: rgb(230,230,230) url(../../images/wayfair.png) no-repeat -282px 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+}
+
+.registry:hover span {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.registry_text {
+	text-decoration: none;
+}
+
+.wayfair {
+	background: url(../../images/wayfair.png) no-repeat;
+}
+
+.wayfair span {
+	background: url(../../images/wayfair.png) no-repeat -318px 0;
+}
+
+.amazon {
+	background: url(../../images/amazon.png) no-repeat;
+	margin-top: 65px
+}
+
+.amazon span {
+	background: url(../../images/amazon.png) no-repeat -323px 0;
+}

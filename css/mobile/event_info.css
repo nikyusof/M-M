@@ -1,0 +1,122 @@
+/**
+ * Styles for the event info section
+ */
+
+.info {
+	background-color: rgb(220,79,83);
+}
+
+.info .content-box {
+	height: 450px;
+	margin-top: -40%;
+}
+
+.info-title {
+	font-family: 'BlanchCapsInline', arial;
+	margin: 18px auto;
+}
+
+.map-content {
+	float: left;
+	width: 451px;
+	height: 311px;
+}
+
+.info-content {
+	float: left;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.info-content h2 {
+	margin-left: 0;
+	margin: 0;
+	color: rgb(248,191,84);
+}
+
+.info-content h3 {
+	margin: 0;
+	/* margin-bottom: 16px; */
+}
+
+.more-info {
+	/* clear: both; */
+	margin-top: 15px;
+	width: 100%;
+}
+
+.event-info {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 85%;
+	line-height: 15px;
+}
+
+#inline1 {
+	padding: 25px;
+}
+
+#inline1 span {
+	text-align: center;
+}
+
+.line-seperator {
+	display: block;
+	margin: auto;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	height: 1px;
+	width: 450px;
+	background: #bbbbbb;
+}
+
+.get-directions {
+	clear: both;
+	margin-top: 25px;
+	width: 100%;
+}
+
+.btn {
+	position: relative;
+	margin: 0;
+	text-align: center;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 30px;
+	font-weight: normal;
+	text-decoration: none;
+	-webkit-transition-property: color, background-color;
+	-webkit-transition-duration: .5s, .5s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property: color, background-color;
+	-moz-transition-duration: .5s, .5s;
+	-moz-transition-timing-function: linear, ease-in;
+	-o-transition-property: color, background-color;
+	-o-transition-duration: .5s, .5s;
+	-o-transition-timing-function: linear, ease-in;
+	-ms-transition-property: color, background-color;
+	-ms-transition-duration: .5s, .5s;
+	-ms-transition-timing-function: linear, ease-in;
+}
+
+.info.btn {
+	padding: 3px 29px;
+	background-color: rgb(248,191,84);
+	color: #FFFFFF;
+}
+
+.info.btn:hover {
+	color: rgb(220,79,83);
+	background-color: #FFFFFF;
+}
+
+.directions.btn {
+	padding: 3px 20px;
+	background-color: rgb(248,191,84);
+	color: #FFFFFF;
+}
+
+.directions.btn:hover {
+	color: rgb(220,79,83);
+	background-color: #FFFFFF;
+}

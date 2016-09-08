@@ -8,18 +8,13 @@
 
 .story .content-box {
 	height: 460px;
-	margin-top: -260px;
+	margin-top: -25%;
 }
 
 .story-title {
-	display: block;
-	margin: auto;
-	position: relative;
-	text-indent: -9999px;
-	width: 785px;
-	height: 75px;
-	background: url(../images/title-sprites.png) 0 0;
-	margin-bottom: 25px;
+	color: #DA585F;
+	font-family: 'BlanchCapsInline', arial;
+	margin: 20px auto;
 }
 
 .story h2 {
@@ -33,46 +28,44 @@
 	position: relative;
 	display: block;
 	overflow: auto;
-	margin-top: 40px;
-	height: 290px;
-	background: url(../images/arrow.png) no-repeat;
-	background-position: 0px 0px;
+	height: 35%;
+	background: url(../../images/arrow.png) no-repeat center top;
+	background-size: 90%;
+	margin: 0 auto;
 }
 
 .first {
-	margin-left: 100px;
-	margin-top: 26px;
+	margin-left: 15%;
 }
 
 .second {
-	margin-left: 70px;
-	margin-top: 26px;
+	margin-left: 7%;
 }
 
 .third {
-	margin-left: 170px;
-	margin-top: 26px;
+	margin-left: 15%;
 }
 
 .fourth {
-	margin-left: 50px;
-	margin-top: 26px;
+	margin-left: 8%;
 }
 
 .fifth {
-	margin-left: 100px;
-	margin-top: 26px;
+	margin-left: 7%;
 }
 
 .heart {
 	display: block;
 	position: relative;
 	text-indent: -9999px;
-	width: 46px;
-	height: 44px;
-	background: url(../images/heart.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	background: url(../../images/heart-mobile.png) no-repeat;
+	background-size: 40px;
 	float: left;
 	cursor: pointer;
+	margin-top: 2.0%;
+	padding: 0px;
 }
 
 .heart span {
@@ -81,8 +74,9 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: url(../images/heart.png) no-repeat;
-	background-position: -46px 0;
+	background: url(../../images/heart-mobile.png) no-repeat;
+	background-position: -20px 0px;
+	background-size: 40px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.5s;
@@ -96,7 +90,7 @@
 	filter: alpha(opacity=100);
 }
 
-.highlights h4 {
+.story-description {
 	display: none;
 	position: absolute;
 	background-color: rgb(230,230,230);
@@ -104,10 +98,11 @@
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	width: 550px;
-	top: 80px;
+	width: 80%;
+	top: 25px;
 	text-align: center;
 	opacity: 0;
+	font-size: 95%;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.5s;
 	-moz-transition:    opacity 0.5s;
@@ -115,13 +110,14 @@
 	-ms-transition:     opacity 0.5s;
 }
 
-.highlights:hover h4 {
+.highlights:hover h4,
+.active {
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
 
 .highlights h4 span {
-	font-size: 40px;
-	line-height: 40px;
+	font-size: 135%;
+	line-height: 1.2em;
 }

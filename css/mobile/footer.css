@@ -1,0 +1,45 @@
+/**
+ * Footer styles
+ */
+
+.footer-timer,
+.footer-social {
+	z-index: 100;
+	position: fixed;
+	bottom: 0;
+	height: 32px;
+	margin: 10px;
+	text-align: center;
+	opacity: .4;
+	filter: alpha(opacity=50);
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+}
+
+.footer-timer {
+	max-width: 200px;
+	padding: 0 3%;
+	right: 0;
+	background-color: #383838;
+}
+
+.footer-social {
+	max-width: 150px;
+}
+
+.timer {
+	margin-top: 4px;
+	font-size: 115%;
+}
+
+.social-icon-wrap {
+	margin: auto 3px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.social-icon {
+	width: 35px;
+}

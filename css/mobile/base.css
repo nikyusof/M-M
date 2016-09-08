@@ -1,0 +1,111 @@
+/**
+ * Base styles
+ */
+
+h1 {
+	padding: 0;
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 60px;
+	font-weight: normal;
+	color: white;
+}
+
+h2 {
+	font-family: 'Pacifico', 'PacificoRegular', cursive;
+	font-size: 95%;
+	font-weight: 400;
+	font-style: normal;
+	margin: 15px;
+}
+
+h3 {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 135%;
+	font-weight: normal;
+	color: #FFFFFF;
+	margin: 20px 0px 20px 0;
+}
+
+h4 {
+	font-family: 'BlanchCapsRegular', arial;
+	font-size: 15px;
+	font-weight: normal;
+	color: rgb(225,86,97);
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #363636
+}
+
+p a {
+	text-decoration: none;
+	color: rgb(220,79,83);
+}
+
+p a:hover {
+	color: rgb(248,202,105);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.1em;
+}
+
+label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	height: 0;
+	width: 46%;
+	margin-top: 10px;
+	clear: both;
+	text-align: right;
+	float:left;
+	margin-right:15px;
+}
+
+input,
+select {
+	height: 20px;
+	width: 300px;
+	border: 1px solid #000;
+	margin-top: 10px;
+	float: left;
+}
+
+/**
+ * Main content styles
+ */
+.content-box {
+	position: absolute;
+	max-width: 100%;
+	top: 35%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.container {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
