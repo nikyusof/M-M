@@ -66,12 +66,12 @@ body {
 label {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	height: 0;
-	width: 46%;
-	margin-top: 10px;
+	width: 40%;
+	margin-top: 1px;
 	clear: both;
 	text-align: right;
 	float:left;
-	margin-right:15px;
+	margin-right: 10px;
 }
 
 input,

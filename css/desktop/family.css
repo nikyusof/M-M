@@ -2,33 +2,26 @@
  * Styles for the family members section
  */
 
-.party {
+.family {
 	background-color: rgb(248,202,105);
 }
 
-.party .content-box {
+.family .content-box {
 	height: 350px;
 	margin-top: -210px;
 }
 
 .family-title {
 	display: block;
-	margin: auto;
+	margin: auto auto 25px auto;
 	position: relative;
 	text-indent: -9999px;
 	width: 576px;
 	height: 75px;
 	background: url(../../images/family.png) no-repeat;
-	margin-bottom: 25px;
 }
 
-.party-title-temp {
-	text-align: center;
-	font-size: 3em !important;
-	color: white;
-}
-
-.party h2 {
+.family h2 {
 	text-align: center;
 	color: rgb(0,138,160);
 	text-shadow: rgb(0,138,160) 0 0 0;
@@ -37,7 +30,7 @@
 .groomsmen {
 	display: block;
 	position: relative;
-	width: 671px;
+	width: 711px;
 	height: 60px;
 	padding-top: 60px;
 	margin-left: auto;
@@ -65,7 +58,7 @@
 	float: left;
 }
 
-.party-gallery {
+.family-gallery {
 	position: relative;
 	display: block;
 	overflow: auto;

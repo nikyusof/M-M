@@ -18,7 +18,7 @@
   <meta property="og:video:height" content="300" />
   <meta property="og:url" content="http://www.mukmeenmaisarah.com" />
   <meta property="og:type" content="website"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <meta name="MobileOptimized" content="320">
 
   <!-- Styles -->
@@ -38,7 +38,7 @@
     <ul id="navigation">
       <li class="home-nav" onClick="scrollNav('.home')">M & M</li>
       <li class="story-nav" onClick="scrollNav('.story')">Our Story</li>
-      <li class="party-nav" onClick="scrollNav('.party')">Family</li>
+      <li class="family-nav" onClick="scrollNav('.family')">Family</li>
       <li class="info-nav" onClick="scrollNav('.info')">Event Info</li>
       <li class="rsvp-nav" onClick="scrollNav('.rsvp')">RSVP</li>
       <li class="gifts-nav" onClick="scrollNav('.gifts')">Gifts</li>
@@ -83,13 +83,13 @@
   </div>
 
   <!-- Family Section -->
-  <div class="party slide">
+  <div class="family slide">
     <div class="content-box">     
       <h1 class="family-title">Family Members</h1>
       <h2>Meet the family!</h2>
       <div class="groomsmen">
         <h3 class="wp-title">Groom</h3>
-        <div class="party-gallery">
+        <div class="family-gallery">
           <a class="wp papa" rel="guys-gallery" href="images/gallery/papa.jpg" title="Father: Nik Md Yusof Bin Nik Ismail">Photo One<span></span></a>
           <a class="wp mama" rel="guys-gallery" href="images/gallery/mama.jpg" title="Mother: Zahariah Binti Othman">Photo One<span></span></a>
           <a class="wp abang" rel="guys-gallery" href="images/gallery/abang.jpg" title="Elder Brother: Nik Amirul Faiz">Photo One<span></span></a>
@@ -103,7 +103,7 @@
       </div>
       <div class="bridesmaids">
         <h3 class="wp-title">Bride</h3>
-        <div class="party-gallery">
+        <div class="family-gallery">
           <a class="wp abah" rel="girls-gallery" href="images/gallery/abah.jpg" title="Father: Nor Azman Bin Merican">Photo One<span></span></a>
           <a class="wp mama-m" rel="girls-gallery" href="images/gallery/mama-m.jpg" title="Mother: Munirah Binti Mohammad">Photo One<span></span></a>
           <a class="wp kakak" rel="girls-gallery" href="images/gallery/kakak.jpg" title="Elder Sister: Julia Ayesya">Photo One<span></span></a>
@@ -131,7 +131,6 @@
         <div style="display: none;">
           <div id="event-info1">
             <p class="event-info">
-              Event Info:<br /><br />
               Venue: Dewan MPSP<br />
               Address: <a href="https://goo.gl/maps/QWHp3SwA5BU2" target="_blank">Kompleks Sukan MPSP, Jalan Bertam 2, 13200, Kepala Batas, Pulau Pinang</a><br />
               Date: 11 December 2016<br />
@@ -164,7 +163,6 @@
         <div style="display: none;">
           <div id="event-info2">
             <p class="event-info">
-              Event Info:<br /><br />
               Venue: Dewan Merak Kayangan<br />
               Address: <a href="https://goo.gl/maps/3p4bqn7nfHu" target="_blank">No. 2 Jalan Maktab 6, 54000, Kuala Lumpur</a><br />
               Date: 18 December 2016<br />
@@ -191,21 +189,26 @@
     <div class="content-box">
       <h1 class="rsvp-title">RSVP</h1>
       <h2>Tell us if you're coming!</h2>
-      <!--
       <form name="rsvp-now" id="rsvp-now" class="rsvp-now" action="//formspree.io/mukmeenmaisarah@gmail.com" method="POST">
-        <div class="labels">
-          <label for="name"><h3>Your Name</h3></label>
-          <label for="guests"><h3 class="guest-name">Name of Guest<span>(s)</span></h3></label>
-          <label for="attending"><h3># Attending</h3></label>
-          <label for="email"><h3>Email</h3></label>
-          <label for="reception"><h3>Reception</h3></label>
-        </div>
-        <div class="forms">
+        <div class="form-group">
+          <label for="name" class="rsvp-label"><h3 class="rsvp-label-title">Your Name</h3></label>
           <input type="text" id="name" name="name" class="rsvp-form" size="45" />
+        </div>
+        <div class="form-group">
+          <label for="guests" class="rsvp-label"><h3 class="rsvp-label-title">Name of Guest<span>(s)</span></h3></label>
           <input type="text" id="guests" name="guests" class="rsvp-form" size="45" />
+        </div>
+        <div class="form-group">
+          <label for="attending" class="rsvp-label"><h3 class="rsvp-label-title"># Attending</h3></label>
           <input type="text" id="attending" name="attending" class="rsvp-form" size="45" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="rsvp-label"><h3 class="rsvp-label-title">Email</h3></label>
           <input type="text" id="email" name="email" class="rsvp-form" size="45" />
-          <select id="reception" name="receiption" class="rsvp-form reception">
+        </div>
+        <div class="form-group">
+          <label for="reception" class="rsvp-label"><h3 class="rsvp-label-title">Reception</h3></label>
+          <select id="reception" name="receiption" class="rsvp-form">
             <option></option>
             <option>Penang (Bride's Side)</option>
             <option>KL (Groom's Side)</option>
@@ -213,16 +216,13 @@
           </select>
         </div>
         <div class="submit-container">
-          <div class="submit">
-            <button class="submit-btn" type="submit">Submit</button>
-            <input type="hidden" name="_next" value="/index.html" />
-            <input type="hidden" name="_cc" value="nikmdyusof@mukmeenmaisarah.com,zahariahothman@mukmeenmaisarah.com,juliaayesya@mukmeenmaisarah.com" />
-            <input type="hidden" name="_subject" value="Wedding RSVP" />
-          </div>
+          <button class="submit-btn" type="submit">Submit</button>
+          <input type="hidden" name="_next" value="/index.html" />
+          <input type="hidden" name="_cc" value="nikmdyusof@mukmeenmaisarah.com,zahariahothman@mukmeenmaisarah.com,juliaayesya@mukmeenmaisarah.com" />
+          <input type="hidden" name="_subject" value="Wedding RSVP" />
         </div>
       </form>
       <h3 class="questions">For Questions Email: <a href="mailto:mukmeenmaisarah@gmail.com">mukmeenmaisarah@gmail.com</a></h3>
-      -->
     </div>
   </div>
 

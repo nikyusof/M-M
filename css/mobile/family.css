@@ -2,11 +2,11 @@
  * Styles for the family members section
  */
 
-.party {
+.family {
 	background-color: rgb(248,202,105);
 }
 
-.party .content-box {
+.family .content-box {
 	height: 350px;
 	margin-top: -20%;
 }
@@ -16,13 +16,7 @@
 	margin: 20px auto;
 }
 
-.party-title-temp {
-	text-align: center;
-	font-size: 3em !important;
-	color: white;
-}
-
-.party h2 {
+.family h2 {
 	text-align: center;
 	color: rgb(0,138,160);
 	text-shadow: rgb(0,138,160) 0 0 0;
@@ -32,7 +26,6 @@
 .bridesmaids {
 	display: inline;
 	position: relative;
-	/* 	width: 353px; */
 	height: 60px;
 	padding-top: 60px;
 	margin-left: auto;
@@ -43,12 +36,10 @@
 }
 
 .wp-title {
-	margin-top: 15px;
-	margin-right: 20px;
 	margin: 0 auto;
 }
 
-.party-gallery {
+.family-gallery {
 	display: block;
 	overflow: auto;
 	width: 80%;
@@ -63,7 +54,6 @@
 	width: 25px;
 	height: 25px;
 	background: url(../../images/family-sprite-mobile.png) no-repeat;
-	/* float: left; */
 	margin-right: 3px;
 	margin-top: 10px;
 }

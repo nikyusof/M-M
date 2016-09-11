@@ -15,13 +15,12 @@
 
 .gifts-title {
 	display: block;
-	margin: auto;
+	margin: auto auto 25px auto;
 	position: relative;
 	text-indent: -9999px;
 	width: 785px;
 	height: 83px;
 	background: url(../../images/title-sprites.png) 0 -300px;
-	margin-bottom: 25px;
 }
 
 .gifts h2 {
