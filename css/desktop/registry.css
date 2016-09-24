@@ -73,11 +73,11 @@
 	background: url(../../images/wayfair.png) no-repeat -318px 0;
 }
 
-.amazon {
-	background: url(../../images/amazon.png) no-repeat;
-	margin-top: 65px
+.target {
+	background: url(../../images/target.png) no-repeat;
+	margin-top: 45px
 }
 
-.amazon span {
-	background: url(../../images/amazon.png) no-repeat -323px 0;
+.target span {
+	background: url(../../images/target.png) no-repeat -323px 0;
 }
