@@ -79,6 +79,10 @@
 	width: 420px;
 }
 
+.event-title {
+	font-size: 40px;
+}
+
 .btn {
 	position: relative;
 	margin: 0;
