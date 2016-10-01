@@ -28,7 +28,7 @@
 }
 
 .rsvp-now {
-	margin: 30px auto;
+	margin: 20px auto;
 	width: 80%;
 	height: 70%;
 	text-align: center;
@@ -131,6 +131,7 @@
 .questions {
 	clear: both;
 	text-align: center;
+	margin-top: 55px
 }
 
 .questions a {
