@@ -16,7 +16,12 @@
 	margin: auto;
 	position: relative;
 	text-indent: -9999px;
-	width: 540px;
-	height: 335px;
+	width: 385px;
+	height: 190px;
 	background: url(../../images/mm-title.png) no-repeat;
+}
+
+.main-img {
+	margin-left: 320px;
+	margin-top: -65px;
 }

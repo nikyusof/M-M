@@ -8,7 +8,16 @@
 
 .home-img {
 	width: 100%;
-	height: 185px;
+	height: 120px;
 	background: url(../../images/mm-title.png) no-repeat center center;
 	background-size: 35vh;
+}
+
+.main-img {
+	margin-top: -45px;
+	width: 165px;
+}
+
+.content-box-main {
+	top: 23%;
 }
