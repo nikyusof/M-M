@@ -42,8 +42,12 @@ $(function() {
     return false;
   }
 
-  $('.js-countdown-timer').countdown('2016/12/11', function(event) {
-    $(this).html(event.strftime('%D days %H:%M:%S'));
+  $('.js-countdown-timer').countdown('2016/12/11', {elapse: true}).on('update.countdown', function(event) {
+    if (event.elapsed) {
+      $(this).html(event.strftime('%D days %H:%M:%S'));
+    } else {
+      $(this).html(event.strftime('%D days %H:%M:%S'));
+    }
   });
 
   $('.js-story').click(function(e) {
